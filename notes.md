@@ -1,0 +1,87 @@
+# Notes
+
+## Software development
+- Idea: add "challenges" throughout the presentation
+  - Try editing code in just notepad + terminal
+  - Try enabling vim bindings in your editor
+  - Try working without your mouse/trackpad as much as possible
+  - Go through diamol book, 1 chapter a day
+  - Learn regular expressions
+  - Learn `sed` or `awk`
+
+- Technical concepts
+    - Virtual environments (Python/R)
+    - Containers
+    - Class diagrams?
+- General tips, do's and don'ts
+- A single command should produce your figures
+- Write a plan on paper first
+- See also: clean code, pragmatic programmer
+    - Pragmatic programmer
+        - Software entropy/technical debt (topic 3)
+        - Documentation (tip 13)
+        - Topic 8: the essence of good design
+            - ETC: Easier to Change
+        - Topic 9: DRY - The Evils of Duplication
+            - Uniform Access principle
+        - Topic 10: Orthogonality
+        - Topic 11: Reversibility
+        - Topic 12: Tracer bullets
+        - Topic 13: Prototypes and Post-it Notes
+            - Link to AI!
+        - Topic 16: The power of plain text
+            - The Unix Philosophy
+            - Scripts are plain text, notebooks aren't really (e.g. base64 encoded images)
+        - Topic 17: Shell games
+            - Piping, power of command shell
+        - Topic 18: Power editing
+            - It's about removing friction by not having to think about editing
+        - Topic 19: version control
+        - Topic 20: debugging
+            - Failing test before fixing code
+            - Read the damn error message
+            - Rubber duck debugging
+            - Read the documentation
+        - Topic 23: design by contract
+            - Applicable to AI: this will make agentic coding easier
+            - Use assertions
+        - Topic 24: dead programs tell no lies
+            - Crash early
+        - Topic 25: assertive programming
+            - Assertions vs error: assertions are for the "impossible"
+        - Topic 27: don't outrun your headlights
+        - Topic 28: decoupling
+            - Include the `applyDiscount` example
+            - Don't chain method calls??
+            - Avoid global data
+        - Topic 30: transforming programming
+            - Piping
+            - `find . -type f | xargs wc -l | sort -n | tail -5`
+            - Programming is about code, but programs are about data
+        - Topic 31: inheritance tax (?)
+        - Topic 32: configuration
+    - Design patterns: see downloads
+    - https://www.reddit.com/r/learnprogramming/comments/i41exm/does_anyone_have_any_general_tips_for_writing/
+    - https://github.com/zedr/clean-code-python#classes
+    - https://github.com/chuvanan/clean-code-r
+- Premature optimization is the root of all evil
+- Code readability
+- Technical debt
+- Reproducibility
+- Dependency management
+    - Supply chain attacks
+- Git/Github usage
+    - Git vs Github
+    - learngitbranching.js.org
+    - Pull requests and issues
+    - CI/CD
+- Design patterns
+- Automated testing
+
+## Personal effectiveness
+- Pragmatic programmer
+    - Your knowledge portfolio (topic 6)
+    - Topic 7: communication
+- Getting Things Done
+- Deep Work
+- 12 Week Year
