@@ -18,6 +18,7 @@
 - Write a plan on paper first
 - See also: clean code, pragmatic programmer
     - Pragmatic programmer
+        - https://www.khoury.northeastern.edu/home/lieber/courses/csg110/sp08/Pragmatic%20Quick%20Reference.htm
         - Software entropy/technical debt (topic 3)
         - Documentation (tip 13)
         - Topic 8: the essence of good design
@@ -112,7 +113,7 @@
 - Getting Things Done: full capture
 - Deep Work
 - 12 Week Year
-- Fear of the blank page: getting started, cult of done?
+- Fear of the blank page: getting started, cult of done? https://cultofdone.org/
 - Productive breaks: walk, do something. No phone!
 - Interactive session: how do you keep track of literature?
 - Schedule to make it happen
