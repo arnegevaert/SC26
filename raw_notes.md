@@ -1,4 +1,4 @@
-# Notes
+# Raw Notes
 
 ## Software development
 - Idea: add "challenges" throughout the presentation
@@ -41,7 +41,9 @@
             - Failing test before fixing code
             - Read the damn error message
             - Rubber duck debugging
+              - Also: write/draw it out!
             - Read the documentation
+            - Don't assume it, prove it
         - Topic 23: design by contract
             - Applicable to AI: this will make agentic coding easier
             - Use assertions
@@ -60,6 +62,25 @@
             - Programming is about code, but programs are about data
         - Topic 31: inheritance tax (?)
         - Topic 32: configuration
+        - Chapter 7 intro: coding is not just mechanical!
+        - Tip 61: listen to your inner lizard: prototyping to figure out a problem?
+        - Topic 38: programming by coincidence
+            - Deliberate programming
+        - Topic 39: algorithm speed - intro big o notation?
+        - Topic 40: refactoring - construction vs gardening
+            - Refactor early and often
+        - Topic 41: test to code
+            - Testing is not just to find bugs, but to help you think
+            - Unit testing
+            - Contract testing
+            - Design to test
+            - Testing in Python and R: pytest - testthat
+        - Topic 42: Property testing: hypothesis - quickcheck
+        - Topic 44: naming things
+        - Topic 51: pragmatic starter kit
+            - Version control: use VC to drive builds and tests
+            - Regression testing: test early, often, automatically
+            - Full automation (in our case: for results, plots, papers!)
     - Design patterns: see downloads
     - https://www.reddit.com/r/learnprogramming/comments/i41exm/does_anyone_have_any_general_tips_for_writing/
     - https://github.com/zedr/clean-code-python#classes
@@ -76,12 +97,23 @@
     - Pull requests and issues
     - CI/CD
 - Design patterns
+    - 8 design patterns: https://www.youtube.com/watch?v=tAuRQs_d9F8
+    - Parameter object: https://www.youtube.com/watch?v=43sDzyanzR0&list=PLC0nd42SBTaNf0bVJVd9e2oBV-mcUuxS0
+    - Policy/Strategy pattern: https://www.youtube.com/watch?v=wYeDGkdMi3g&list=PLC0nd42SBTaNf0bVJVd9e2oBV-mcUuxS0&index=2
+    - Dependency injection: https://www.youtube.com/watch?v=Xhzn1eAxoXk
 - Automated testing
+- Advent of code
+- Divide and conquer
 
 ## Personal effectiveness
 - Pragmatic programmer
     - Your knowledge portfolio (topic 6)
     - Topic 7: communication
-- Getting Things Done
+- Getting Things Done: full capture
 - Deep Work
 - 12 Week Year
+- Fear of the blank page: getting started, cult of done?
+- Productive breaks: walk, do something. No phone!
+- Interactive session: how do you keep track of literature?
+- Schedule to make it happen
+- Note taking: notion vs obsidian
