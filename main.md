@@ -1,38 +1,43 @@
-% Habits
-% John Doe
-% March 22, 2005
+Speaker Notes
+===
 
-# In the morning
+`presenterm` supports speaker notes.
 
-## Getting up
+You can use the following HTML comment throughout your presentation markdown file:
 
-- Turn off alarm
-- Get out of bed
+```markdown
+<!-- speaker_note: Your speaker note goes here. -->
+```
 
-## Breakfast
+<!-- speaker_note: This is a speaker note from slide 1. -->
 
-- Eat eggs
-- Drink coffee
+And you can run a separate instance of `presenterm` to view them.
 
-# In the evening
+<!-- speaker_note: You can use multiple speaker notes within each slide and interleave them with other markdown. -->
 
-## Dinner
+<!-- end_slide -->
 
+Usage
+===
+Run the following two commands in separate terminals.
 
-:::::::::::::: {.columns align=center totalwidth=8em}
-::: {.column width="80%"}
-- Eat spaghetti
-- Drink wine
-:::
-::: {.column width="60%"}
-![picture of spaghetti](./sam-dario-power-couple.jpeg)
-:::
-::::::::::::::
+<!-- speaker_note: This is a speaker note from slide 2. -->
 
-------------------
+The `--publish-speaker-notes` argument will render your actual presentation as normal, without speaker notes:
 
+```
+presenterm --publish-speaker-notes examples/speaker-notes.md
+```
 
-## Going to sleep
+The `--listen-speaker-notes` argument will render only the speaker notes for the current slide being shown in the actual 
+presentation:
 
-- Get in bed
-- Count sheep
+```
+presenterm --listen-speaker-notes examples/speaker-notes.md
+```
+
+<!-- speaker_note: Demonstrate changing slides in the actual presentation. -->
+
+As you change slides in your actual presentation, the speaker notes presentation slide will automatically navigate to the correct slide.
+
+<!-- speaker_note: Isn't that cool? -->
