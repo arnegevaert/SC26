@@ -1,43 +1,68 @@
-Speaker Notes
-===
+# Saeyslab Conference 2026: Software Development
 
-`presenterm` supports speaker notes.
+<!-- column_layout: [1, 1] -->
+<!-- column: 0 -->
+## Version control
+- Introduction to git
+- Github features
+- Github action, CI/CD
 
-You can use the following HTML comment throughout your presentation markdown file:
+## Dependency management
+- Virtual environments
+- Lockfiles
 
-```markdown
-<!-- speaker_note: Your speaker note goes here. -->
-```
+## Structuring projects
+- In Python
+- In R
 
-<!-- speaker_note: This is a speaker note from slide 1. -->
+## Automated testing
+- Unit testing
+- Property testing
 
-And you can run a separate instance of `presenterm` to view them.
+<!-- column: 1 -->
+## Containers
 
-<!-- speaker_note: You can use multiple speaker notes within each slide and interleave them with other markdown. -->
+## Reproducible research
+
+## Principles of software development
+
+## Design patterns
 
 <!-- end_slide -->
 
-Usage
-===
-Run the following two commands in separate terminals.
+<!-- jump_to_middle -->
 
-<!-- speaker_note: This is a speaker note from slide 2. -->
+# Introduction to version control
 
-The `--publish-speaker-notes` argument will render your actual presentation as normal, without speaker notes:
+<!-- end_slide -->
 
-```
-presenterm --publish-speaker-notes examples/speaker-notes.md
-```
+# Key Git concepts
+<!-- incremental_lists: true -->
+- **Repository:** A folder where Git tracks your project and its history.
+- **Commit:** A snapshot of your repository.
+  - A commit contains the **changes with respect to the previous commit.**
+- **Staging area:** a "waiting area" for your changes.
+- **Branch:** A pointer to a specific commit.
+- **HEAD:** A pointer to the current commit.
+- Git tracks **changes,** not files.
 
-The `--listen-speaker-notes` argument will render only the speaker notes for the current slide being shown in the actual 
-presentation:
+## Demo
+<!--
+speaker_note: |
+  - vim readme.md
+  - git init
+  - git status
+  - git add readme.md
+  - git status
+  - git commit
+  - git log
+  - git log -p
+  - vim readme.md: change a line, add a line
+  - git status
+  - git add readme.md
+  - git commit -m "new commit"
+  - git log -p
+  - Create a few more commits
+  - Checkout a previous commit
+-->
 
-```
-presenterm --listen-speaker-notes examples/speaker-notes.md
-```
-
-<!-- speaker_note: Demonstrate changing slides in the actual presentation. -->
-
-As you change slides in your actual presentation, the speaker notes presentation slide will automatically navigate to the correct slide.
-
-<!-- speaker_note: Isn't that cool? -->
