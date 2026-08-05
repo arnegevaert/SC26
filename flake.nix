@@ -33,6 +33,7 @@
               typst
               pandoc
               just
+              python314
             ];
           };
         }

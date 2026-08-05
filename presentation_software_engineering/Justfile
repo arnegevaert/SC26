@@ -1,0 +1,4 @@
+present:
+  presenterm -x --publish-speaker-notes --theme tokyonight-night main.md
+listen:
+  presenterm --listen-speaker-notes --theme tokyonight-night main.md
