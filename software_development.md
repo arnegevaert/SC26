@@ -5,7 +5,7 @@
   - https://www.w3schools.com/git/git_staging_environment.asp?remote=github
   - Git: commit, branch, merge
   - Github: push, pull, issue, pull request
-  - CI/CD: github actions introduction
+  - CI/CD: github actions introduction (continuous integration/delivery)
 - Dependency management
   - Pin versions of dependencies
   - The point of lockfiles
