@@ -2,6 +2,3 @@ present:
   presenterm --publish-speaker-notes --theme tokyonight-night main.md
 listen:
   presenterm --listen-speaker-notes --theme tokyonight-night main.md
-clean:
-  rm -rf demos/git
-  mkdir -p demos/git

@@ -1,5 +1,15 @@
 # Raw Notes
 
+- Have slide with high school picture: studying for math or smth without doing => fail
+- Difference between function and object: object has state
+  - In python: you can specify interface of a function using Callable
+- Rmd: git-friendly, more reproducible, but make sure you can execute using single command!
+- Challenge: use git with only command line for a while
+- Example workflow: play around in notebook, extract to a script
+- Reproducibility: write your results to disk, put identifying information in the filename
+  - Write your configuration to disk as well!
+
+
 ## Software development
 - Idea: add "challenges" throughout the presentation
   - Try editing code in just notepad + terminal
