@@ -1,0 +1,1 @@
+This is an alternative to [[principal components analysis]] that uses blablabla
