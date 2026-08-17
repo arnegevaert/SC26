@@ -8,6 +8,7 @@
   - CI/CD: github actions introduction (continuous integration/delivery)
 
 - Dependency management
+  - Paths in linux, Python and R
   - Pin versions of dependencies
   - The point of lockfiles
     - Why you shouldn't use conda/mamba
