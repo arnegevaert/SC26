@@ -1,6 +1,5 @@
-# Copy the demos folder to the parent directory
-# because some of the demos use separate git repositories
-# which would conflict with the main repo if run inside it
 clean-demos:
-  rm -rf ../demos
-  cp -r demos ../
+  rm -rf demo
+  cp -r demo_templates demo
+  docker container ls -aq | xargs --no-run-if-empty docker container rm -f
+  docker image ls -aq | xargs --no-run-if-empty docker image rm -f
