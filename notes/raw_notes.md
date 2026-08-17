@@ -1,6 +1,6 @@
 # Raw Notes
 
-- Have slide with high school picture: studying for math or smth without doing => fail
+- You shouldn't write comments because it shouldn't be necessary
 - Difference between function and object: object has state
   - In python: you can specify interface of a function using Callable
 - Rmd: git-friendly, more reproducible, but make sure you can execute using single command!
@@ -8,7 +8,6 @@
 - Example workflow: play around in notebook, extract to a script
 - Reproducibility: write your results to disk, put identifying information in the filename
   - Write your configuration to disk as well!
-
 
 ## Software development
 - Idea: add "challenges" throughout the presentation
@@ -115,16 +114,3 @@
 - Automated testing
 - Advent of code
 - Divide and conquer
-
-## Personal effectiveness
-- Pragmatic programmer
-    - Your knowledge portfolio (topic 6)
-    - Topic 7: communication
-- Getting Things Done: full capture
-- Deep Work
-- 12 Week Year
-- Fear of the blank page: getting started, cult of done? https://cultofdone.org/
-- Productive breaks: walk, do something. No phone!
-- Interactive session: how do you keep track of literature?
-- Schedule to make it happen
-- Note taking: notion vs obsidian
