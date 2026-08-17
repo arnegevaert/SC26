@@ -3,6 +3,8 @@ options:
   end_slide_shorthand: true
   h1_slide_titles: true
   incremental_lists: true
+theme:
+  path: ../presenterm-theme.yaml
 ---
 <!-- jump_to_middle -->
 <!-- column_layout: [1, 1, 1] -->
