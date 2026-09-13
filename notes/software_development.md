@@ -60,33 +60,99 @@
   - Externalize your configs
 
 ## Software Development & Design Patterns
-- Core principles
-  - ETC: Easier to Change
-  - DRY: Don't Repeat Yourself
-  - Orthogonality
-  - Reversibility
-  - Design by contract
+- Introduction
+  - Sources: pragmatic programmer, a philosophy of software design
+    - Challenge: read these books and implement their principles in your daily programming work
+  - Why do we need "good code"?
+    - Improves collaboration: with others, with your future self, with agents
+      - What's confusing to people is generally also confusing to agents
+    - Improves reproducibility
+    - Makes it easier to discover and fix bugs
+    - Makes it easier to make changes (which you will have to do at revision time)
+  - What is "good code"?
+    - Bad code: complexity
+      - Complexity is anything related to the structure of a software system that makes it hard to understand and modify the system
+      - "complex" does not mean lots of features
+      - Symptoms of complexity
+        - Change amplification: a seemingly simple change requires modifications in many places
+        - Cognitive load: a developer needs to know a lot in order to complete a task
+          - Use web page example Figure 2.1 p18
+        - Unknown unknowns: it is not obvious which pieces of code must be modified to complete a task
+      - Causes of complexity
+        - Dependencies: web site example
+        - Obscurity: bad naming, documentation, hidden dependencies
+        - Complexity is incremental: use bangkok picture
+          - This is why it's also called "technical debt"
+    - Properties of good code
+      - Good code is obvious
+      - Good code is easier to change (ETC: easier to change)
+      - Good code doesn't repeat itself (DRY: don't repeat yourself)
+      - Orthogonality
+      - Reversibility (?)
+
+- Strategic vs tactical programming
+  - PP calls this programming by coincidence vs deliberate programming
+  - ...
+
+- Modules should be deep
+  - Modules have an interface and an implementation
+  - Interface: what a developer needs to know in order to use the module
+  - Abstraction: a simplified view of an entity, which omits unimportant details
+    - Modules provide abstractions of their interfaces
+    - An abstraction that omits important details is a false (or leaky) abstraction
+    - Abstractions typically form layers
+      - Red flag: pass-through method (use figure 7.1)
+  - Deep modules (use figure 4.1 and unix file system example)
+  - Shallow modules (use example in section 4.5)
+  - Classitis: using classes doesn't automatically make your code "cleaner"
+    - Use FileInputStream example p35
+  - Information hiding and leakage
+    - Red flags: information leakage and temporal decomposition
+    - Use HTTP server example?
+  - General-purpose modules are deeper
+    - Difference between general-purpose and special-purpose modules
+    - A module's functionality should reflect your current needs, but its interface should not
+      - Example: storing text for an editor
+    - Generality leads to better information hiding
+    - Questions to ask yourself
+      - What is the simplest interface that will cover all of my current needs?
+      - In how many situations will this method be used?
+      - Is this API easy to use for my current needs?
+
+- Writing comments
+  - The four excuses
+  - Comments should describe things that aren't obvious
+
+- Tips & tools
+  - Choosing names
   - Assertive programming
-  - Decoupling
-  - Don't outrun your headlights
-  - Technical debt
-  - Programming by coincidence vs deliberate programming
-  - Commenting: documentation vs code comments
-    - You shouldn't need many code comments, write readable code!
-- Tools
+  - Design it twice
   - Refactoring
   - Tracer bullets
   - Prototypes
-  - Plain text
-  - External configuration
-  - Big O notation
-  - Power editing
-  - Mastering the shell, piping
-- Debugging
+  - Don't outrun your headlights
+  - Write the comments first (chapter 16)
+
 - Testing
   - Unit testing
   - Property testing
   - Design for testability
   - Test to help you think
-- Design Patterns
+
+- Design patterns
+  - What are design patterns
+  - Dependency injection
+  - Decorator
+  - Dispatcher (see philosophy 7.2)
   - ...
+
+- Core principles
+  - Design by contract
+  - Decoupling
+
+
+- Move to devops slides
+  - Plain text
+  - External configuration
+  - Power editing (challenge: learn vim bindings, learn to use your editor with as little mouse as possible)
+  - Mastering the shell, piping (challenge: try living in the terminal as much as possible)
