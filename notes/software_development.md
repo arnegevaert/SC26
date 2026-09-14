@@ -87,8 +87,9 @@
       - Good code is obvious
       - Good code is easier to change (ETC: easier to change)
       - Good code doesn't repeat itself (DRY: don't repeat yourself)
-      - Orthogonality
-      - Reversibility (?)
+      - Good code is orthogonal
+
+- Reducing complexity
 
 - Strategic vs tactical programming
   - PP calls this programming by coincidence vs deliberate programming
@@ -145,11 +146,6 @@
   - Decorator
   - Dispatcher (see philosophy 7.2)
   - ...
-
-- Core principles
-  - Design by contract
-  - Decoupling
-
 
 - Move to devops slides
   - Plain text
