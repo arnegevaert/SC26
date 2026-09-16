@@ -1,0 +1,5 @@
+reader = FileReader()
+data = reader.read(path)
+processed_data = process(data)
+writer = FileWriter()
+writer.write(path)

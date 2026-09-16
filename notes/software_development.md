@@ -100,9 +100,7 @@
   - Interface: what a developer needs to know in order to use the module
   - Abstraction: a simplified view of an entity, which omits unimportant details
     - Modules provide abstractions of their interfaces
-    - An abstraction that omits important details is a false (or leaky) abstraction
-    - Abstractions typically form layers
-      - Red flag: pass-through method (use figure 7.1)
+    - An abstraction that omits important details is a false abstraction
   - Deep modules (use figure 4.1 and unix file system example)
   - Shallow modules (use example in section 4.5)
   - Classitis: using classes doesn't automatically make your code "cleaner"
@@ -119,15 +117,14 @@
       - What is the simplest interface that will cover all of my current needs?
       - In how many situations will this method be used?
       - Is this API easy to use for my current needs?
+  - Abstractions typically form layers
+    - Red flag: pass-through method (use figure 7.1)
 
 - Writing comments
   - The four excuses
   - Comments should describe things that aren't obvious
 
 - Tips & tools
-  - Choosing names
-  - Assertive programming
-  - Design it twice
   - Refactoring
   - Tracer bullets
   - Prototypes
@@ -143,12 +140,10 @@
 - Design patterns
   - What are design patterns
   - Dependency injection
-  - Decorator
   - Dispatcher (see philosophy 7.2)
   - ...
 
 - Move to devops slides
   - Plain text
-  - External configuration
   - Power editing (challenge: learn vim bindings, learn to use your editor with as little mouse as possible)
   - Mastering the shell, piping (challenge: try living in the terminal as much as possible)

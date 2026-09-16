@@ -1,4 +1,0 @@
-present:
-  presenterm -x --publish-speaker-notes main.md
-listen:
-  presenterm --listen-speaker-notes main.md
