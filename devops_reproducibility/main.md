@@ -230,7 +230,7 @@ echo $PATH
 <!--
 speaker_note: |
   Demo:
-  - <C-b> new-window bash
+  - konsole .
   - cd path/
   - run the script
   - try to run the script outside dir
@@ -568,3 +568,4 @@ speaker_note: |
   - Docker In A Month of Lunches. Elton Stoneman
   - https://docs.docker.com/get-started/introduction/
   - https://docs.docker.com/get-started/workshop/
+- https://missing.csail.mit.edu/
