@@ -1,0 +1,19 @@
+# Resources
+- Books
+  - Cal Newport - Deep Work
+  - David Allen - Getting Things Done
+  - David Thomas & Andrew Hunt - The Pragmatic Programmer
+  - John Ousterhout - A Philosophy of Software Design
+  - Erich Gamma et al. - Design Patterns
+  - Elton Stoneman - Docker In A Month of Lunches
+- Challenges
+  - Containers
+    - Go through the Docker In A Month of Lunches book 1 chapter per day and do the exercises
+    - Use a development container in your next project
+    - Go through the Docker Workshop: https://docs.docker.com/get-started/workshop/
+  - General computer usage
+    - Run Python/R programs from terminal instead of VSCode/RStudio
+    - Use git in the terminal
+      - Useful resource: https://learngitbranching.js.org/
+    - Go through the Computer Science Missing Semester: https://missing.csail.mit.edu/
+    - Learn vim bindings and enable them in VSCode: https://www.vim-hero.com/, https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
